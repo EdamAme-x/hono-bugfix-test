@@ -1,0 +1,17 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.4.0",
+    "hono": "^3.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+}
